@@ -1,6 +1,5 @@
-export interface Answer{
-    id: number;
-    is_true: boolean;
-    text: string;
-
+export interface Answer {
+	id: number | null;
+	is_true: boolean;
+	text: string;
 }
